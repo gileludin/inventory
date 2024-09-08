@@ -11,7 +11,7 @@ const ibmPlexSerif = IBM_Plex_Serif({
 
 export const metadata: Metadata = {
   title: "Inventory Management System",
-  description: "foo",
+  description: "Manage your inventory with ease.",
 };
 
 export default function RootLayout({

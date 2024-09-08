@@ -1,12 +1,15 @@
+import DashboardWrapper from "./DashboardWrapper";
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <main>
-      Sidebar
-      {children}
-    </main>
+    <html lang="en">
+      <body>
+        <DashboardWrapper>{children}</DashboardWrapper>
+      </body>
+    </html>
   );
 }
